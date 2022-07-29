@@ -1,0 +1,21 @@
+[package]
+name = "forgc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "*"
+
+[[bin]]
+name = "template"
+path = "src/template.rs"
+
+[[bin]]
+name = "compiler"
+path = "src/compiler.rs"
+
+[[bin]]
+name = "unpacker"
+path = "src/unpacker.rs"
